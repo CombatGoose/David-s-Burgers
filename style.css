@@ -8,6 +8,7 @@ header {
 nav {
     display: flex;
     margin-left: 40%;
+    align-items: center;
 }
 .nav {
     color: white;
@@ -103,6 +104,7 @@ a {
 }
 .cards {
     display: flex;
+    margin-top: 50px;
 }
 .card {
     margin-left: 30px;
@@ -116,4 +118,21 @@ a {
     width: 35px;
     height: 35px;
     margin-left: 5px;
+}
+.burger {
+    width: 150px;
+    margin-top: 250px;
+    position: absolute;
+    display: none;
+    margin-left: 100px;
+    background-color: rgb(235, 235, 235);
+}
+.burgers {
+    padding-bottom: 100px;
+}
+.burgers:hover + .burger {
+    display: block;
+}
+.n {
+    margin-top: 100px;
 }
