@@ -29,6 +29,7 @@ nav {
 }
 .nav {
     margin-left: 30px;
+    display: flex;
 }
 .hText {
     font-size: 24px;
@@ -105,4 +106,14 @@ a {
 }
 .card {
     margin-left: 30px;
+}
+.home {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
 }
